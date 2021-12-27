@@ -1,0 +1,21 @@
+body{
+    font-family:"open Sans", sans-serif;
+    background-color:pink;
+    }
+   .container{
+    width: 400px;
+    height: 450px;
+    background-color: #ff1d58;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 20px 0px 0px 100px;
+    border-radius:50px;
+    }
+   input{
+   width: 80%;
+   padding: 5px;
+   margin-top:10px;
+   border: none;
+   }

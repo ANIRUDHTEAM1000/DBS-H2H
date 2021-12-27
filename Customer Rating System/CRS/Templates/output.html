@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+ <link rel="stylesheet" href="{% static 'style1.css' %}">
+    <title>Details</title>
+
+    <style>
+        body{
+          background-image: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.bridgesconsultancy.com%2Fresearch-case-study%2Fcase-study%2F&psig=AOvVaw1KuYt88nP_I7r4sQRIGT-x&ust=1639992517157000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKDfqK7G7_QCFQAAAAAdAAAAABAD.jpg';
+        }
+    </style>
+
+</head>
+<body>
+    <div class="form-2">
+ <h1>Customer Rating System</h1>
+ <b>Customer Name <span class="gold-text"><i> {{ Customer_Name }} </i></span></b>
+ <br></br>
+      <b>Residential Country <span class="gold-text"><i> {{ Residential_Country }} </i></span></b>
+      <br></br>
+      <b>Risk rating <span class="gold-text"><i> {{ Risk_Rating }} </i></span></b>
+      <br></br>
+      <b>Risk rating Reason<span class="gold-text"><i> {{Risk_Rating_Reason}} </i></span></b>
+      <br></br>
+    </div>
+</body>
+</html>

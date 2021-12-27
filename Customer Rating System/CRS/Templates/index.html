@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+ <link rel="stylesheet" href="{% static 'style1.css' %}">
+    <title>Customer Rating System</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="output" method='POST'>
+            {% csrf_token %}
+        <h1>Customer Rating System</h1>
+        <p>Customer Key<input type="text" name='accountKey' id='accountKey'></p>
+      <button type="submit" >Click</button>
+      <button type="reset" >Reset</button>
+      <p align:"bottom"><button type="button"><a href='admin/rating/rules/'>Admin</a></button></p>
+    </div>
+</form>
+</body>
+</html>
